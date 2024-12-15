@@ -1,0 +1,260 @@
+body {
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.view-main-container {
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 500px;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.view-sub-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.view-sub-1 h1 {
+    color: rgb(0, 115, 255);
+    letter-spacing: 2px;
+}
+
+.view-sub-1 a {
+    text-decoration: none;
+    background-color: rgb(71, 123, 255);
+    border-radius: 50px;
+    width: 20%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: white;
+    transition: all 1s ease-in-out;
+    font-weight: bolder;
+}
+
+table {
+    width: 100%;
+    border-color: red;
+}
+
+thead {
+    background-color: rgb(68, 119, 248);
+    color: white;
+    letter-spacing: 2px;
+    height: 50px;
+}
+
+.action-cell {
+    background-color: rgb(141, 173, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+.data-cell {
+    background-color: rgb(141, 173, 255);
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.view-delete-button {
+    background-color: rgb(132, 0, 255);
+    text-decoration: none;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    font-size: 12px;
+    height: 25px;
+    cursor: pointer;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-weight: bolder;
+}
+
+.view-edit-button {
+    background-color: rgb(255, 0, 132);
+    text-decoration: none;
+    width: 45%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-weight: bolder;
+}
+
+.view-edit-button:hover, .view-delete-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.view-sub-1 a:hover{
+    background-color: rgb(255, 204, 0);
+    color: black;
+}
+
+.add-main-container{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 500px;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.add-main-container h1 {
+    color: rgb(255, 0, 111);
+    letter-spacing: 2px;
+}
+
+.add-main-container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.add-sub-button{
+    background-color: rgb(0, 162, 255);
+    text-decoration: none;
+    width: 25%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-weight: bolder;  
+    border-style: none;
+}
+
+.add-sub-button:hover{
+    background-color: rgb(255, 204, 0);
+    color: black;
+}
+
+.add-input{
+    background-color: rgb(255, 192, 219);
+    width: 50%;
+    border-radius: 50px;
+    border-style: none;
+    padding: 2%;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+
+.add-input:hover{
+    background-color: rgb(250, 211, 228);
+}
+
+.edit-main-container{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 500px;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.edit-main-container h1 {
+    color: rgb(0, 252, 139);
+    letter-spacing: 2px;
+}
+
+.edit-main-container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.edit-sub-button{
+    background-color: rgb(0, 139, 252);
+    text-decoration: none;
+    width: 25%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-weight: bolder;  
+    border-style: none;
+}
+
+.edit-sub-button:hover{
+    background-color: rgb(255, 204, 0);
+    color: black;
+}
+
+.edit-input{
+    background-color: rgb(190, 255, 226);
+    width: 50%;
+    border-radius: 50px;
+    border-style: none;
+    padding: 2%;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+
+.edit-input:hover{
+    background-color: rgb(215, 255, 237);
+}
+
+
+
+
+
+
