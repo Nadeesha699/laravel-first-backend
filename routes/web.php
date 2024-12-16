@@ -13,3 +13,4 @@ Route::get('/edit-student/{id}',[StudentController::class,'loadEditStudentForm']
 Route::get('/delete-student/{id}',[StudentController::class,'deleteStudent']);
 Route::post('/set-student',[StudentController::class,'addStudent'])->name('addStudent');
 Route::post('/update-student',[StudentController::class,'editStudent'])->name('editStudent');
+

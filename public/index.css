@@ -253,6 +253,43 @@ thead {
     background-color: rgb(215, 255, 237);
 }
 
+.error-message{
+    background-color: rgb(254, 192, 219);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 5%;
+    width: 20%;
+    box-shadow: 10px 10px 20px black;
+}
+
+.error-message label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: lowercase;
+}
+
+.error-message a{
+    background-color: rgb(255, 0, 111);
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all ease-in-out;
+}
+
+.error-message a:hover{
+    background-color: rgb(199, 0, 0);
+    color: white;
+}
+
 
 
 

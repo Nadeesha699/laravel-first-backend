@@ -9,6 +9,12 @@
 </head>
 
 <body>
+    @if (isset($message) && $message != null )
+    <div class="error-message">
+        <label>{{$message}}</label>
+        <a href="/edit-student/{{$data->id}}">X</a>
+    </div>
+    @endif
     <div class="edit-main-container">
         <h1>EDIT STUDENT</h1>
         <form action="{{route('editStudent')}}" method="post">
