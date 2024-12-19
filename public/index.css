@@ -254,7 +254,7 @@ thead {
 }
 
 .error-message{
-    background-color: rgb(254, 192, 219);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
